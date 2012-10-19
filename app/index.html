@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <title></title>
+        <meta name="description" content=""/>
+        <meta name="viewport" content="width=device-width"/>
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        
+        <link href='styles/fonts.css' rel='stylesheet' type='text/css'> 
+        <!-- <link rel="stylesheet" href="styles/main.css"/> -->
+        <link rel="stylesheet" href="styles/master.css"/>
+
+        <script src="scripts/vendor/modernizr.min.js"></script>
+    </head>
+    
+    <body>
+    
+    <div class="container">
+      <header id="page-header">
+        <div id="icon-container">
+          <img id="icon" src="/images/duck.svg" alt="icon" />
+        </div>
+        
+        <hgroup id="site-info">
+          <h1 id="site-title">Cyberduck</h1>
+          <h2 id="site-description">
+            Award winning Libre FTP + SFTP client
+          </h2>
+        </hgroup>
+      </header>
+
+      <div id="content">
+        
+        <nav id="site-nav">
+          <ul>
+            <li><a href="#">about</a></li>
+            <li><a href="#">news</a></li>
+            <li><a href="#">development</a></li>
+            <li><a href="#">help</a></li>
+          </ul>
+        </nav>
+      
+        
+        <section id="downloads">
+          
+          <div class="download" id="appstore">
+            <a href="#">
+              <img src="http://cyberduck.ch/img/mas" alt="Mac App Store" />
+            </a>
+          </div>
+          
+          <div class="download" id="osx">
+            <a href="#" class="button">Download for OS X</a>
+            <div class="details">
+              <span>Date:</span> December 12 2011 <br />
+              <span>File:</span> Cyberduck-4.2.1.zip <br />
+              <span>Req:</span> OS X 10.5 - 10.7 <br />
+              <a href="#" class="release-notes">Release Notes</a>
+            </div>
+          </div>
+          
+          <div class="download" id="windows">
+            <a href="#" class="button">Download for Windows</a>
+            <div class="details">
+              <span>Date:</span> December 12 2011 <br />
+              <span>File:</span> Cyberduck-Installer-4.2.1.exe <br />
+              <span>Req:</span> Win XP, Vista, or 7 <br />
+              <a href="#" class="release-notes">Release Notes</a>
+            </div>
+          </div>
+        
+        </section><!-- end #downloads -->
+        <div id="overview">
+          <h3>Overview</h3>
+          <p>
+            Cyberduck has an easy to use interface that is backed by a widely tested FTP 
+            implementation that provides the best in interoperability. Cyberduck provides support for FTP over
+            secured SSL/TLS connections and connections to all types of servers. 
+          </p>
+          <ul>
+            <li>FTP</li>
+            <li>SFTP</li>
+            <li>WebDAV</li>
+            <li>Amazon S3</li>
+            <li>Google Cloud Storage</li>
+            <li>Windows Azure</li>
+            <li>RackSpace Cloud Files</li>
+            <li>Google Drive</li>
+          </ul>
+          <p>Cyberduck works with 3rd party providers that use either the S3 or Openstack APIs as well.</p>
+        </div>
+        
+        
+        <section id="cloud" class="feature">
+          <div class="feature-description">
+            <h3 class="feature-title">Distribute your content to the Cloud</h3> 
+            <img src="/images/bookmarks.png" alt="bookmarks" />
+            <p>
+              Both Amazon CloudFront and Akamai content delivery networks (CDN) can be 
+              easily configured to distribute your files worldwide from edge locations. 
+              Connect to any server using FTP, SFTP or WebDAV and configure it as the origin of a new Amazon 
+              CloudFront CDN distribution.
+            </p> 
+          </div><!-- end .featured-description -->
+        </section>
+      </div>
+
+      <footer id="page-footer">
+        <div id="awards">
+          <img src="http://cdn.cyberduck.ch/img/macworld.png" alt="macworld rating" />
+          <img src="http://cdn.cyberduck.ch/img/editorschoice.png" alt="macworld editor's choice" />
+          <img src="http://cdn.cyberduck.ch/img/pcadvisor.png" alt="PC Advisor" />
+        </div>
+        <p id="copyright">copyright 2012 &copy;</p>
+      </footer>
+    </div>
+
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="scripts/vendor/jquery.min.js"><\/script>')</script>
+        
+        
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    
+    <!-- build:js scripts/amd-app.js -->
+    <script data-main="scripts/main" src="scripts/vendor/require.js"></script>
+    <!-- endbuild -->
+    <script src="scripts/scripts.js"></script>
+
+  </body>
+</html>
